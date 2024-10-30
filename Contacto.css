@@ -1,0 +1,412 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-image: linear-gradient(
+    to right top,
+    #243960,
+    #314b71,
+    #3f5e81,
+    #4e7192,
+    #5f84a2
+  );
+}
+
+footer {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+  scroll-snap-type: x mandatory;
+}
+footer {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+/* BANNER */
+.navbar-collapse {
+  margin-right: 200px;
+  display: flex;
+  justify-content: center;
+}
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.navbar-toggler {
+  background-color: #0000004d;
+}
+.active {
+  color: #000000 !important;
+}
+.nav-link {
+  font-size: 1.05rem;
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  color: #c5c5c5;
+}
+
+.navbar {
+  background-color: transparent !important;
+  color: white;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s ease-in-out, background-color 0.3s ease-in-out !important;
+}
+.scroll-up-bg {
+  background-image: linear-gradient(
+    to right top,
+    #243960,
+    #314b71,
+    #3f5e81,
+    #4e7192,
+    #5f84a2
+  );
+}
+.content {
+  padding-top: 80px;
+  height: 2000px;
+}
+
+.navbar.scrolled:hover {
+  background-color: white !important;
+}
+@media (max-width: 988px) {
+  .nav-link {
+    color: rgb(255, 255, 255) !important;
+  }
+  .active {
+    color: rgb(0, 0, 0) !important;
+  }
+  .navbar-toggler {
+    background-color: #cccccc;
+  }
+}
+.logo {
+  width: 200px;
+}
+
+.banner-text {
+  padding: 10rem 20rem 10rem 20rem;
+  margin-top: 6rem;
+  text-align: center;
+}
+.banner-text h5 {
+  color: white;
+  font-size: 2rem;
+}
+@media (max-width: 988px) {
+  .banner-text {
+    padding: 3rem;
+  }
+  .banner-text h5 {
+    font-size: 1.3rem;
+  }
+}
+/* Estilo para los párrafos */
+
+.btn-agendar {
+  color: #ffffff;
+  border: solid 1px white;
+}
+/* Animación para alternar visibilidad */
+@keyframes fadeInOut {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  20%,
+  80% {
+    opacity: 1;
+  }
+  40%,
+  60% {
+    opacity: 1;
+  }
+}
+.julio-red {
+  display: flex !important;
+}
+.icon-valdivieso {
+  width: 30px;
+}
+.icon-valdivieso:hover {
+  transform: scale(1.08);
+  transition: 0.2s linear;
+}
+
+/* formulario */
+.form-1 {
+  padding: 100px 30px 10px 30px;
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 988px) {
+  .form-1 {
+    flex-direction: column;
+    text-align: center;
+    padding: 0px;
+    margin-top: 5rem;
+  }
+}
+.info-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 50%;
+}
+@media (max-width: 988px) {
+  .info-contact {
+    margin-top: 40px;
+  }
+}
+.text-1contact {
+  font-weight: 700;
+  color: #ffffff;
+}
+.title-contact1 {
+  color: white;
+  width: 50%;
+  font-weight: 600;
+}
+@media (max-width: 988px) {
+  .title-contact1 {
+    width: 100%;
+  }
+}
+.text-ligth {
+  color: white;
+  font-weight: 300;
+}
+.p-contacto {
+  color: white;
+}
+
+.formulario {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  flex: 50%;
+}
+#transp {
+  color: #414141af;
+}
+#redirection {
+  color: white;
+}
+#transp {
+  color: white;
+}
+form {
+  text-align: center;
+  margin: 30px 0px 0px 0px;
+}
+
+input {
+  background-color: #ebebeb;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 5px;
+}
+#fname:hover {
+  background-color: rgb(202, 202, 202);
+  transition: 0.2s linear;
+}
+input:hover {
+  background-color: rgb(202, 202, 202);
+  transition: 0.3s linear;
+}
+select {
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+select:hover {
+  background-color: #000000;
+  transition: 0.3s linear;
+}
+textarea {
+  border-radius: 5px;
+  color: white;
+}
+#adjuntar {
+  background-color: #3f5e81;
+}
+.politic {
+  color: #000000;
+}
+.privacity {
+  color: #38b6ff;
+}
+#enviar {
+  background-color: #414141;
+  color: white;
+  cursor: pointer;
+  padding-left: 100px;
+  padding-right: 100px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+#enviar:hover {
+  background-color: #000000;
+}
+/* overline */
+.overline {
+  background-color: #cecece;
+  height: 1px;
+}
+/* fin */
+
+/* CONTACTO INFORMACION ADICIONAL */
+.ubication-container {
+  background-color: #dfdfdf;
+  display: flex;
+  flex-direction: row;
+  padding: 10rem 7rem 3rem 7rem;
+  text-align: center;
+}
+@media (max-width: 988px) {
+  .ubication-container {
+    flex-direction: column;
+    padding: 4rem;
+  }
+}
+.text-adrees {
+  font-weight: 300;
+}
+.adress {
+  flex: 1;
+}
+.adress li {
+  padding: 5px;
+}
+.adress li,
+a {
+  font-weight: 300;
+  color: #000000;
+  text-decoration: none;
+  list-style: none;
+}
+.adress a:hover {
+  color: #38b6ff;
+  transition: 0.2s linear;
+}
+
+/* FIN FORMULARIO */
+
+/* FOOTER */
+footer {
+  background-color: rgb(228, 228, 228);
+
+  padding: 50px;
+}
+@media (max-width: 988px) {
+  .footer {
+    display: flex;
+    min-height: auto;
+    justify-content: center;
+  }
+}
+
+.logo-linda {
+  width: 300px;
+}
+
+.overline-final {
+  height: 1px;
+  background-color: rgb(0, 0, 0);
+}
+@media (max-width: 988px) {
+  .navegation {
+    flex-direction: column;
+  }
+}
+.container-information {
+  margin-top: 50px;
+}
+.information,
+.direction,
+.redes {
+  margin: 10px;
+}
+.redes {
+  margin: 1rem 0rem 1rem 0rem;
+}
+.redes img:hover {
+  transition: 0.2s linear;
+  transform: scale(1.2);
+}
+.information a {
+  text-decoration: none;
+  color: #000000;
+}
+.direction a {
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #000000;
+}
+.navegation {
+  margin-left: 20px;
+  text-align: left;
+}
+.navegation a {
+  text-decoration: none;
+  color: #000000;
+  margin-left: 2rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+@media (max-width: 988px) {
+  .navegation a {
+    margin-left: 0rem;
+  }
+  .navegation {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+.navegation a:hover {
+  color: #b4b4b4;
+  transition: 0.2s linear;
+}
+.black2 {
+  text-decoration: none;
+  color: #000000;
+}
+.black2:hover {
+  color: #469aca;
+  transition: 0.2s linear;
+}
+.volantis-foot {
+  width: 50px;
+}
+.volantis-foot:hover {
+  transition: 0.4s linear;
+  transform: scale(1.2);
+}
+/* FIN */

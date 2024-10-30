@@ -1,0 +1,841 @@
+body {
+  background-image: linear-gradient(
+    to right top,
+    #243960,
+    #314b71,
+    #3f5e81,
+    #4e7192,
+    #5f84a2
+  );
+  font-family: "Montserrat", sans-serif;
+}
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+footer {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+/* BANNER */
+
+.navbar-collapse {
+  margin-right: 200px;
+  display: flex;
+  justify-content: center;
+}
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.navbar-toggler {
+  background-color: #0000004d;
+}
+.active {
+  color: #000000 !important;
+}
+.nav-link {
+  font-size: 1.05rem;
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  color: #c5c5c5;
+}
+
+.navbar {
+  background-color: transparent !important;
+  color: white;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s ease-in-out, background-color 0.3s ease-in-out !important;
+}
+.scroll-up-bg {
+  background-image: linear-gradient(
+    to right top,
+    #243960,
+    #314b71,
+    #3f5e81,
+    #4e7192,
+    #5f84a2
+  );
+}
+.content {
+  padding-top: 80px;
+  height: 2000px;
+}
+
+.navbar.scrolled:hover {
+  background-color: white !important;
+}
+@media (max-width: 988px) {
+  .nav-link {
+    color: rgb(255, 255, 255) !important;
+  }
+  .active {
+    color: rgb(0, 0, 0) !important;
+  }
+  .navbar-toggler {
+    background-color: #cccccc;
+  }
+}
+.logo {
+  width: 200px;
+}
+
+.banner-text {
+  padding: 10rem 20rem 10rem 20rem;
+  margin-top: 6rem;
+  text-align: center;
+}
+.banner-text h5 {
+  color: white;
+  font-size: 2rem;
+}
+@media (max-width: 988px) {
+  .banner-text {
+    padding: 3rem;
+  }
+  .banner-text h5 {
+    font-size: 1.3rem;
+  }
+}
+/* Estilo para los párrafos */
+.banner-paragraph {
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+  opacity: 0;
+  animation: fadeInOut 8s infinite;
+}
+.btn-agendar {
+  color: #ffffff;
+  border: solid 1px white;
+}
+/* Animación para alternar visibilidad */
+@keyframes fadeInOut {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  20%,
+  80% {
+    opacity: 1;
+  }
+  40%,
+  60% {
+    opacity: 1;
+  }
+}
+.julio-red {
+  display: flex !important;
+}
+.icon-valdivieso {
+  width: 30px;
+}
+.icon-valdivieso:hover {
+  transform: scale(1.08);
+  transition: 0.2s linear;
+}
+/*FINAL DEL CONTENIDO DE LOS UL LI Y a */
+
+/*/contenedor  BIENVENIDA*/
+.container-welcome {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5rem;
+  padding: 20px;
+}
+.titleand-text {
+  display: none;
+}
+.subtitle {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+@media (max-width: 600px) {
+  .titleand-text {
+    color: white;
+    display: block;
+    position: relative;
+    top: 20rem;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  .title-texrepon {
+    color: white;
+    font-size: 2rem;
+  }
+}
+@media (max-width: 600px) {
+  .text-respon {
+    color: white;
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 600px) {
+  .container-welcome {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media (max-width: 600px) {
+  .backgraund-respon {
+    background-image: url(img-inicio/Cirugía\ oral\ Tunja\ Boyacá\ julio\ Mejía\ .webp);
+    background-position: center;
+    background-size: cover;
+    height: 780px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .backgraund-respon::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 780px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+  }
+}
+@media (max-width: 1094px) {
+  .container-welcome {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.div1-welc,
+.div2-welc {
+  flex: 50%;
+}
+.div1-welc {
+  display: flex;
+  min-height: auto;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2rem;
+}
+
+.div2-welc {
+  display: flex;
+  justify-content: center;
+}
+.juliov-contain {
+  border-radius: 50px !important;
+}
+.title-welc {
+  width: 70%;
+  color: rgb(253, 253, 253);
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+@media (max-width: 1094px) {
+  .title-welc {
+    width: 100%;
+  }
+}
+.marca-agua {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+.text-welc {
+  font-weight: 300;
+  color: white;
+  font-size: 1rem;
+}
+
+.kelly {
+  width: 300px;
+}
+.btn-more {
+  color: black;
+  margin-top: 20px;
+}
+.btn-outline-secondary {
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 1px white;
+  background-color: white;
+  color: #8eabae;
+  font-weight: 600;
+}
+.btn-me {
+  margin-left: 3rem;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 1px white;
+  background-color: transparent;
+  color: white;
+}
+@media (max-width: 988px) {
+  .btn-outline-secondary {
+    margin-bottom: 1rem;
+  }
+}
+.separador {
+  margin: 200px;
+}
+/* FIN */
+
+/* CARRUSEL */
+.custom-carousel-container {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.custom-carousel-track-container {
+  overflow: hidden;
+}
+
+.custom-carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.custom-carousel-card {
+  flex: 0 0 calc(50% - 200px);
+  padding: 10px;
+}
+
+.custom-card-item {
+  display: flex;
+  justify-content: center;
+}
+
+.custom-carousel-prev-btn,
+.custom-carousel-next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+  border-radius: 50px;
+}
+
+.custom-carousel-prev-btn {
+  left: 10px;
+}
+
+.custom-carousel-next-btn {
+  right: 10px;
+}
+
+/* Estilos personalizados de las cards */
+.custom-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.custom-card:hover {
+  transform: scale(1.05);
+}
+
+.custom-card-body {
+  padding: 20px;
+}
+
+.custom-card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.custom-card-text {
+  color: rgba(255, 255, 255, 0.637);
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.custom-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.custom-btn:hover {
+  background-color: #0056b3;
+}
+
+.custom-btn-color {
+  background-color: #28a745;
+}
+
+/* Media queries para adaptabilidad */
+@media (max-width: 768px) {
+  .custom-carousel-card {
+    flex: 0 0 calc(50% - 20px);
+  }
+}
+.custom-carousel-prev-btn {
+  left: 10px;
+}
+.custom-carousel-next-btn {
+  right: 10px;
+}
+
+/* Media queries para adaptabilidad */
+@media (max-width: 900px) {
+  .custom-carousel-card {
+    flex: 0 0 80%; /* Ajuste para pantallas móviles */
+  }
+}
+
+.numero1 {
+  background-image: url(img-inicio/Cirugía\ oral\ Tunja\ Boyacá\ julio\ Mejía\ .webp);
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+}
+.numero2 {
+  background-image: url(img-inicio/Dentista\ Tunja\ Boyacá\ .webp);
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+}
+.numero3 {
+  background-image: url(img-inicio/Diseño\ de\ sonrisa\ Tunja\ Boyacá.webp);
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+}
+.numero4 {
+  background-image: url(img-inicio/Implantes\ dentales\ Tunja\ Boyacá\ Julio\ Mejía\ .webp);
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+}
+.numero5 {
+  background-image: url(img-inicio/Implantes\ dentales\ Tunja\ Boyacá.webp);
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+}
+.numero6 {
+  background-image: url(img-inicio/Urgencias\ dentales\ Tunja\ Boyacá\ .webp);
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+}
+.numero7 {
+  background-image: url(Carrusel/Endodoncia\ Tunja\ Boyacá\ Julio\ Mejía\ .webp);
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+}
+.numero8 {
+  background-image: url(Carrusel/Endodoncista\ Tunja\ Boyacá\ .jpg);
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+}
+.numero9 {
+  background-image: url(Carrusel/Implantes\ dentales\ Julio\ Mejía\ Tunja\ Boyacá\ .webp);
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+}
+.numero10 {
+  background-image: url(Carrusel/Tratamiento\ de\ conductos\ Tunja\ Boyacá\ Julio\ Mejía\ .webp);
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+}
+.numero11 {
+  background-image: url(Carrusel/Implantes\ dentales\ Tunja\ Boyacá\ Julio\ Mejía\ .webp);
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+}
+.numero12 {
+  background-image: url(Carrusel/Julio\ Mejia\ Rehabilitacion\ oral.JPG);
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+}
+.numero13 {
+  background-image: url(img-inicio/Odontólogo\ Tunja\ Boyacá\ ORTODONCIA.webp);
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+}
+.numero14 {
+  background-image: url(img-inicio/drjuliovaldivieso.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+}
+.numero15 {
+  background-image: url(img-inicio/Diseño\ de\ sonrisa\ Tunja\ Boyacá.webp);
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+}
+/* .numero16 {
+  background-image: url(img-inicio/Coronas\ libres\ de\ metal\ en\ tunja\ y\ Boyacá\ .jpg);
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+} */
+
+/* BIOGRAFIA JULIO */
+
+.container-biography {
+  display: flex;
+  flex-direction: row;
+  background-color: #eeeeee;
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  .container-biography {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media (max-width: 988px) {
+  .container-biography {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 0px;
+  }
+}
+.div1-welc2,
+.div2-welc2 {
+  flex: 50%;
+}
+.div1-welc2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width: 988px) {
+  .div1-welc2 {
+    margin-bottom: 200px;
+  }
+}
+
+.div2-welc2 {
+  display: flex;
+  justify-content: center;
+}
+
+.title-welc2 {
+  font-size: 2rem;
+}
+.title-implant {
+  font-size: 1.3rem;
+}
+.text-welc2 {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.julio-valdivieso {
+  width: 500px;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+
+.btn-me2 {
+  margin-left: 2rem;
+  background-color: transparent;
+  border: solid 1px black;
+}
+
+@media (max-width: 988px) {
+  .btn-primary {
+    margin-bottom: 1rem;
+  }
+}
+.black {
+  background-color: #1f1f1f;
+}
+/* FIN  */
+
+/* CARDS */
+
+.header-titlecard {
+  margin: 50px 0px 50px 0px;
+}
+.title-cards {
+  color: white;
+  text-align: center;
+}
+.custom-card {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  overflow: hidden;
+  border: none;
+}
+.card:hover {
+  transform: scale(1.02);
+  transition: 0.2s linear;
+}
+@media (max-width: 768px) {
+  .custom-card {
+    margin-top: 10px;
+    height: 250px;
+  }
+}
+
+@media (max-width: px) {
+  .custom-card {
+    margin-top: 20px;
+    height: 200px;
+  }
+}
+.card-title {
+  margin-top: 5rem;
+  font-size: 1rem !important;
+  position: relative;
+  z-index: 1 !important;
+}
+.card-text {
+  font-size: 0.8rem !important;
+  position: relative;
+  z-index: 1 !important;
+}
+.custom-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.363); /* Filtro oscuro */
+  z-index: 1;
+}
+
+.custom-card .card-body {
+  position: relative;
+}
+
+.custom-card h3 {
+  font-size: 1.75rem;
+  margin-bottom: 10px;
+}
+
+.custom-card p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.btn1 {
+  background-color: #5f84a2;
+  border: none;
+  font-size: 1rem;
+  padding: 10px 20px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  position: relative;
+  z-index: 1 !important;
+  border-radius: 30px;
+}
+.btn1:hover {
+  transition: 0.2s linear;
+  background-color: #bbbbbb;
+}
+.title-endo {
+  margin: 4rem;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+/* Fondo de cada card */
+.card-1 {
+  background-image: url("img-inicio/Odontología\ Tunja\ Boyacá\ Prevencion\ oral.webp");
+}
+
+.card-2 {
+  background-image: url("img-inicio/Cirugía\ oral\ Tunja\ Boyacá\ julio\ Mejía\ .webp");
+}
+
+.card-3 {
+  background-image: url("img-inicio/Odontólogo\ Tunja\ Boyacá\ ORTODONCIA.webp");
+}
+/* interconsulta */
+.card-one {
+  background-image: url("img-inicio/Diseño\ de\ sonrisa\ Tunja\ Boyacá.webp");
+}
+
+.card-two {
+  background-image: url("img-inicio/Urgencias\ dentales\ Tunja\ Boyacá\ .webp");
+}
+
+.card-tree {
+  background-image: url("img-inicio/Dental\ implants\ Tunja\ Boyacá\ .webp");
+}
+.agend {
+  text-align: center;
+  margin: 50px;
+}
+.boton-agend {
+  background-color: #5f84a2;
+  padding: 1rem 10rem 1rem 10rem;
+  color: white;
+  border-radius: 50px;
+}
+@media (max-width: 768px) {
+  .boton-agend {
+    padding: 1rem;
+  }
+}
+@media (max-width: 576px) {
+  .boton-agend {
+    padding: 1rem;
+  }
+}
+.boton-agend:hover {
+  background-color: #bbbbbb;
+  transition: 0.2s linear;
+}
+.text-inter {
+  color: white;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .boton-agend {
+    margin: 0rem 0rem 0rem 0rem;
+  }
+}
+@media (max-width: 576px) {
+  .boton-agend {
+    margin: 0rem 0rem 0rem 0rem;
+  }
+}
+
+/* FIN */
+
+/* FOOTER  */
+footer {
+  background-color: rgb(228, 228, 228);
+
+  padding: 5rem 1rem 1rem 1rem;
+}
+@media (max-width: 988px) {
+  .footer {
+    display: flex;
+    min-height: auto;
+    justify-content: center;
+  }
+}
+
+.logo-linda {
+  width: 300px;
+}
+
+.overline-final {
+  height: 1px;
+  background-color: rgb(0, 0, 0);
+}
+@media (max-width: 988px) {
+  .navegation {
+    flex-direction: column;
+  }
+}
+.container-information {
+  margin-top: 50px;
+}
+.information,
+.direction,
+.redes {
+  margin: 10px;
+}
+.redes {
+  margin: 1rem 0rem 1rem 0rem;
+}
+.redes img:hover {
+  transition: 0.2s linear;
+  transform: scale(1.2);
+}
+.information,
+a {
+  text-decoration: none;
+  color: #000000;
+}
+.direction a {
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #000000;
+}
+.navegation {
+  margin-left: 20px;
+  text-align: left;
+}
+.navegation a {
+  text-decoration: none;
+  color: #000000;
+  margin-left: 2rem;
+  font-size: 1.1rem;
+}
+@media (max-width: 988px) {
+  .navegation,
+  a {
+    margin-left: 0rem;
+  }
+  .navegation {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+.navegation,
+a:hover {
+  color: #b4b4b4;
+  transition: 0.2s linear;
+}
+.black2 {
+  text-decoration: none;
+  color: #000000;
+}
+.black2:hover {
+  color: #469aca;
+  transition: 0.2s linear;
+}
+.volantis-foot {
+  width: 50px;
+}
+.volantis-foot:hover {
+  transition: 0.4s linear;
+  transform: scale(1.2);
+}
+/* FIN */
